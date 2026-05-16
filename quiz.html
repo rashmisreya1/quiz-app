@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: rgb(246, 228, 231)">
+    <div class="quiz-box">
+
+      <div class="Question" id="question">What is the capital of France?</div>
+
+      
+
+      <div class="info-row">
+        <div id="question-number" class="question-number">Question 1 of 5</div>
+        <div id = "score" class="score">Score: 0</div>
+      </div>
+
+      <button id="one" class="option" onclick="checkOption(this)">London</button>
+      <button id="two"class="option" onclick="checkOption(this)">Berlin</button>
+      <button id="three" class="option" onclick="checkOption(this)">Paris</button>
+      <button id="four" class="option" onclick="checkOption(this)">Madrid</button>
+      
+      <div class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
