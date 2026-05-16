@@ -190,3 +190,13 @@
     padding-right: 40px; 
     transition: 0.3s;
 }
+
+@media (max-width: 768px){
+
+    .Quiz-Time{
+        font-size:42px;
+        margin-left:0;
+        text-align:center;
+    }
+
+}
